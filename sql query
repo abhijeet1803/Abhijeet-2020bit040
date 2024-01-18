@@ -1,0 +1,11 @@
+delete from Logs 
+where log_type>1;
+
+
+select*from employees 
+where max(salary(count<6));
+
+update customers 
+set city= "Mumbai" where city = "DELHI";
+
+SELECT avg(net total) from orders where customer name is
